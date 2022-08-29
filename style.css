@@ -1,5 +1,6 @@
-#top {
-    background-color: #1F2937;
+body {
+    margin: 0;
+    text-align: center;
 }
 a {
     text-decoration: none;
@@ -7,7 +8,9 @@ a {
 img {
     height: 200px;
 }
-
+#top {
+    background-color: #1F2937;
+}
 header {
     background-color: #1F2937;
 }
@@ -15,25 +18,44 @@ header {
     font-size: 24px;
     color: #F9FAF8;
 }
+.header_link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 main {
     background-color: #1F2937;
 }
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
 #hero_header {
     font-size: 48px;
+    font-weight: 800;
     color: #F9FAF8;
 }
 #hero_text {
     font-size: 18px;
     color: #E5E7EB;
 }
-section {
-
+section > h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 #mishima_info {
     display: flex;
 }
 aside {
     background-color: #E5E7EB;
+}
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+#quote_text {
+    color: #1F2937;
 }
 #call_to_action {
     background-color: #3882f6;
