@@ -1,6 +1,43 @@
+#top {
+    background-color: #1F2937;
+}
+a {
+    text-decoration: none;
+}
 img {
     height: 200px;
 }
+
+header {
+    background-color: #1F2937;
+}
+#header_logo_text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+main {
+    background-color: #1F2937;
+}
+#hero_header {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+#hero_text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 section {
+
+}
+#mishima_info {
     display: flex;
+}
+aside {
+    background-color: #E5E7EB;
+}
+#call_to_action {
+    background-color: #3882f6;
+}
+footer {
+    background-color: #1F2937;
 }
