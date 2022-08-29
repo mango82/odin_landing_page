@@ -10,35 +10,37 @@
 <body>
     <div id="top">
         <header>
-            <h3 id="header_logo_text">Header Logo <img src="https://www.nicepng.com/png/full/268-2685346_using-a-modified-tsumirrens-1985-real-world-database.png" alt="Mishima Zaibatsu Logo"></h2>
-            <a class="header_link" href="">Header Link 1</a>
-            <a class="header_link" href="">Header Link 2</a>
-            <a class="header_link" href="">Header Link 3</a>
+            <p id="header_logo_text">Mishima Zaibatsu<img id="header_logo" src="https://www.nicepng.com/png/full/268-2685346_using-a-modified-tsumirrens-1985-real-world-database.png" alt="Mishima Zaibatsu Logo"></p>
+            <a class="header_link" href="">About Us</a>
+            <a class="header_link" href="">Characters</a>
+            <a class="header_link" href="">Sign up</a>
         </header>
         <main> <!-- hero -->
-            <h1 id="hero_header">This website is awesome</h1>
-            <p id="hero_text">Random text smaller font</p>
-            <img src="https://image.api.playstation.com/cdn/EP0700/CUSA06014_00/60LMXmTtlbr3RwGglLc9awmBpcFRCC5S.png" alt="Tekken 7 Cover">
-            <button id="hero_button">Sign up</button>
+            <div id="hero_container"> 
+                <h1 id="hero_header">Tekken 7</h1>
+                <p id="hero_text">Tekken 7 (鉄拳7) is a fighting game developed and published by Bandai Namco Entertainment. It is the seventh main and ninth overall installment in the Tekken series. </p>
+                <button id="hero_button">Sign up</button>
+            </div>
+            <img id="hero_image" src="https://image.api.playstation.com/cdn/EP0700/CUSA06014_00/60LMXmTtlbr3RwGglLc9awmBpcFRCC5S.png" alt="Tekken 7 Cover">
         </main>
     </div>    
     <section> <!-- images and information -->
         <h2>Mishima Family Members</h2>
         <div id="mishima_info">
             <div class="character"> 
-            <img src="https://wallpaperaccess.com/full/4670530.jpg" alt="Jin">
+            <img class="mishima_image" src="https://wallpaperaccess.com/full/4670530.jpg" alt="Jin">
             <p>Jin Kazama</p>
             </div>
             <div class="character"> 
-            <img src="https://kofallstarx.com/wp-content/uploads/2019/11/kazuya-full.png" alt="Kazuya">
+            <img class="mishima_image" src="https://kofallstarx.com/wp-content/uploads/2019/11/kazuya-full.png" alt="Kazuya">
             <p>Kazuya Mishima</p>
             </div>
             <div class="character">
-            <img src="https://ssb.wiki.gallery/images/thumb/7/79/Heihachi_TTT2.png/1200px-Heihachi_TTT2.png" alt="Heihachi">
+            <img class="mishima_image" src="https://ssb.wiki.gallery/images/thumb/7/79/Heihachi_TTT2.png/1200px-Heihachi_TTT2.png" alt="Heihachi">
             <p>Heihachi Mishima</p>
             </div>
             <div class="character"> 
-            <img src="https://cdn.dashfight.com/c9f7048265655f187ff3547beabbfde1490d097b.png" alt="Kuma">
+            <img class="mishima_image" src="https://cdn.dashfight.com/c9f7048265655f187ff3547beabbfde1490d097b.png" alt="Kuma">
             <p>Kuma (Pet bear)</p>
             </div>
         </div>
@@ -48,12 +50,14 @@
        <p id="quote_text">- Jin Kazama</p>
     </aside>
     <div id="call_to_action">
-        <h4>Call to action! It's time!</h4>
-        <p>Sign up by clicking that button there!</p>
-        <button>Sign Up</button>
+        <div id="call_to_action_container">
+            <h4>Call to action! It's time!</h4>
+            <p>Sign up by clicking that button there!</p>
+        </div>
+        <button id="call_to_action_button">Sign Up</button>
     </div>
     <footer>
-        Tekken Zaibatsu 2022
+        Copyright &copy; The Odin Project 2021
     </footer>
 </body>
 </html>
